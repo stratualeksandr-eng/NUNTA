@@ -250,7 +250,7 @@ function Hero() {
             <div className="amp">&amp;</div>
             <div className="n2">{EVENT.groom}</div>
           </div>
-          <div className="invite">We invite you to join<br />our wedding</div>
+          <div className="invite">Vă invităm<br />la nunta noastră</div>
           <div className="date">
             <span>{EVENT.dateNums[0]}</span><span className="bar" />
             <span>{EVENT.dateNums[1]}</span><span className="bar" />
@@ -268,7 +268,7 @@ function Intro() {
       <div className="wrap">
         <Reveal><Tick /></Reveal>
         <Reveal as="p" delay={80}>
-          „Cu bucurie în suflet, vă invităm să fim împreună în ziua în care spunem «Da»."
+          „Cu bucurie în suflet, vă invităm să fiți alături de noi în ziua în care vom spune «Da».”
         </Reveal>
       </div>
     </section>
@@ -281,9 +281,9 @@ function Nasi() {
       <div className="wrap">
         <Reveal className="sec-head">
           <span className="overline">Cu binecuvântarea</span>
-          <h2>Nașii noștri</h2>
+          <h2>Nașilor noștri</h2>
         </Reveal>
-        <Reveal className="nasi-names">Arabela <span className="amp">&amp;</span> Ciprian</Reveal>
+        <Reveal className="nasi-names">Arabela <span className="amp">&amp;</span> Ciprian Petruș</Reveal>
       </div>
     </section>
   );
@@ -322,14 +322,14 @@ function Countdown() {
 function Details() {
   const rows = [
     { h: "Data", big: EVENT.dateLabel, sub: EVENT.weekday },
-    { h: "Cununie religioasă", big: "Biserica \"Sfanta Treime\" Schei-Tocile", sub: "Brașov" },
+    { h: "Cununie religioasă", big: "Biserica \"Sfânta Treime\" Schei-Tocile", sub: "Brașov" },
     { h: "Restaurant", big: EVENT.venue, sub: EVENT.city },
   ];
   return (
     <section className="details" id="detalii">
       <div className="wrap">
         <Reveal className="sec-head">
-          <span className="overline">Cu drag vă invităm la</span>
+          <span className="overline">Tot ce trebuie să știți</span>
           <h2>Detaliile zilei</h2>
         </Reveal>
         <div className="detail-grid">
@@ -351,7 +351,7 @@ function Program() {
     ["13:00", "Cununie religioasă", "Momentul sfânt al legăturii noastre"],
     ["14:30", "Primirea invitaților", "Vă întâmpinăm cu un pahar de bun venit la restaurant"],
     ["15:30", "Starter", "Gustări și aperitive"],
-    ["17:30", "Peste", "Felul principal"],
+    ["17:30", "Pește", "Felul principal"],
     ["20:00", "Cina festivă", "Ne așezăm la masă împreună"],
     ["22:00", "Tortul", "Momentul special al serii"],
   ];
@@ -400,7 +400,7 @@ function Church() {
               className="btn btn-primary"
               style={{ display: "block", marginBottom: "16px", width: "100%" }}
             >
-              ➜ Biserica "Sfanta Treime" Schei-Tocile · 13:00
+              ➜ Biserica "Sfânta Treime" Schei-Tocile · 13:00
             </a>
             <a 
               href="https://maps.google.com/?q=Naturalia+Inn+Brașov" 
